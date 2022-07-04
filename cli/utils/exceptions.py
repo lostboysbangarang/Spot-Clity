@@ -88,7 +88,7 @@ class FeatureInDevelopment(ClickException):
     def __init__(self):
         self.message = (
             'This feature is currently in development.\n'
-            'Info: https://github.com/ledesmablt/spotify-cli'
+            'Info: https://github.com/lostboysbangarang/spotify-cli'
         )
         super().__init__(self.message)
 
